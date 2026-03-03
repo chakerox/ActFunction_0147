@@ -14,3 +14,8 @@ void input(){
 float LuasL (float phi,float r) {
     return phi * r * r;
 }
+int main() {
+    input();
+    cout << "hasil = " << LuasL( phi,r) << endl;
+
+}
